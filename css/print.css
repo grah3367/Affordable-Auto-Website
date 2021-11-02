@@ -1,0 +1,27 @@
+body { 
+  background: white; 
+  
+} 
+nav { 
+  display: none; 
+} 
+#number {list-style: none;}
+#wrapper, 
+#content { 
+  width: auto; margin: 0 5%; 
+  padding: 0; 
+  border: 0; 
+  float: none !important; 
+  color: black; 
+  background: transparent; 
+}
+footer{display:none;}
+#request {display:none;}
+#print-button{display: none;}
+.num2 {display:none;}
+
+ul {font-size:16px;}
+#promo {font-size:16px;}
+#promo p, #promo h2 {font-size:16px;margin:5px;padding:0px;}
+#promo br {marin:0;padding:0;}
+#thunder {width:100px;margin:0;padding:0;}

@@ -1,0 +1,500 @@
+body {
+  /* font: 13px/20px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #404040; */
+
+}
+
+.sign-up {
+  position: relative;
+  padding: 22px 12px 15px;
+}
+
+
+.sign-up-title {
+  margin-bottom:10px;
+  line-height: 35px;
+  font-size: 26px;
+  font-weight: 300;
+  color: #ac0202;
+  text-align: center;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+  background: #f7f7f7;
+}
+
+
+input {
+  font-family: inherit;
+  color: inherit;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.sign-up-input {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 25px;
+  padding: 0 15px 2px;
+  font-size: 17px;
+  background: white;
+  border: 2px solid #ebebeb;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 -2px #ebebeb;
+  box-shadow: inset 0 -2px #ebebeb;
+}
+.sign-up-input:focus {
+  border-color: #ac0202;
+  outline: none;
+  -webkit-box-shadow: inset 0 -2px #f44343;
+  box-shadow: inset 0 -2px #f44343;
+}
+.lt-ie9 .sign-up-input {
+  line-height: 48px;
+}
+
+.sign-up-button {
+  position: relative;
+  vertical-align: top;
+  width: 50%;
+
+  height: 35px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #c22011;
+  border: 0;
+  border-bottom: 2px solid #d76b60;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #d76b60;
+  box-shadow: inset 0 -2px #d76b60;
+}
+.sign-up-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+:-moz-placeholder {
+  color: #ccc;
+  font-weight: 300;
+}
+
+::-moz-placeholder {
+  color: #ccc;
+  opacity: 1;
+  font-weight: 300;
+}
+
+::-webkit-input-placeholder {
+  color: #ccc;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  color: #ccc;
+  font-weight: 300;
+}
+
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+ @font-face {
+            font-family: 'flexslider-icon';
+            src: url('../fonts/flexslider-icon.eot?') format('eot'),
+                 url('../fonts/flexslider-icon.woff') format('woff'),
+                 url('../fonts/flexslider-icon.ttf') format('truetype'),
+                 url('../fonts/flexslider-icon.svg') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+        header #row5 {
+            margin-bottom: 0px;
+        }
+        nav {
+            float:left;
+            width:70%;
+            background-color: black;
+            clear:left;
+            overflow: hidden;
+            height: 50px;
+            background: #3a3a3a; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNhM2EzYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwZTBlMGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #3a3a3a 0%, #0e0e0e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3a3a3a), color-stop(100%,#0e0e0e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #3a3a3a 0%,#0e0e0e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #3a3a3a 0%,#0e0e0e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #3a3a3a 0%,#0e0e0e 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #3a3a3a 0%,#0e0e0e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a3a3a', endColorstr='#0e0e0e',GradientType=0 ); /* IE6-8 */
+
+
+        }
+        nav ul {
+            font-family: Arial, Verdana;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            float:left;
+            color:white;
+            width:100%;
+        }
+        nav ul li {
+            float:left;
+            display: block;
+            position: relative;
+        }
+        nav ul li a {
+            font-size: 15px;
+            display: block;
+            text-decoration: none;
+            border-left: 1px solid #292929;
+            border-right: 1px solid #3c3d3d;
+            color: #FFFFFF;
+          
+              font-weight: bold;
+    line-height: 18px;
+    margin: 0;
+    padding: 17px 20px 18px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+        }
+
+        nav ul li:hover {
+          background-image: url("../img/red.gif");
+        }
+        nav .active {
+            background-image: url("../img/red.gif");
+        }
+
+        header {
+            background-color: white;
+            border-bottom: none;
+        }
+
+        .max {
+            max-width: 1140px; margin: 0 auto;
+        }
+
+        #slider-bg{
+            background-image: url("../img/asfalt.png");
+            clear:both;
+            overflow: hidden;
+            
+            
+        }
+        .flexslider {
+            margin:0 auto;
+            max-width:1140px;
+            border: 5px solid #FFFFFF;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+            border-radius:0px;
+        }
+        .slider img {
+
+        }
+        .flex-control-nav,flex-direction-nav {
+         display: none;
+        }
+        #content {
+            padding-top:50px;
+            background-image: url("../img/content-bg.png");
+     
+            background-size: auto 100%;
+            padding-bottom: 50px;
+        }
+
+        footer{
+            margin:0;
+            padding-top: 60px;
+            border-top: 2px solid #bcbcbc;
+        }
+        footer div #meta {
+            margin:0;
+            border: none;
+
+        }
+        .flex-caption {
+            position:absolute;
+               left:10px;
+               bottom:10px;
+               background:rgba(0, 0, 0,0.6);
+               z-index:1;padding:10px;
+               color:white;
+               font-size: 26px;}
+.flexslider .slides li {
+position:relative;
+text-decoration: none;
+
+}
+.flex-head {
+    font-size: 36px;
+    font-family: "Raleway";
+    color: red;
+    font-weight: bold;
+}
+.box {
+    background-image: url("../img/box-bg.png");
+   font-size: 16px;
+    border: solid 1px #e0e0e0;
+    height: 100%;
+    min-height: 200px;
+    background-size: auto 100%;
+    font-size:12px;
+    overflow: inherit;
+    line-height: normal;
+    font-weight: normal;
+
+
+}
+.box ul {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+.box ul li {
+    list-style-type:circle;
+    padding-bottom:5px;
+    text-align: left;
+}
+
+.box h2 {
+    padding:10px;
+}
+
+.box blockquote {
+    
+    margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 50px;
+   padding-left: 15px;
+   border-left: 3px solid #ccc;
+   text-align: left;
+
+}
+.box h2 {
+    color:#ac0202;font-size:26px;
+}
+.box p {
+    text-align: left;padding:20px; line-height: 20px;font-family: arial;
+}
+#manlist span {font-weight: bolder;font-size:20px;}
+#manlist li {
+  padding-bottom:20px;max-width:600px;
+}
+#why ul {
+    list-style:square;
+    text-align:left;
+    padding:10px;
+    margin: 0 auto;
+    width:250px;
+    line-height: 30px;
+    font-size:16px;
+}
+#creditcards{
+    float:right;
+}
+#creditcards li, #cert li {
+    float:left;
+}
+
+#creditcards li img, #cert li img {
+    margin-right:10px;
+}
+#number {
+    float:right;text-align:right;clear:right;
+    padding-top:75px;
+  }
+#request {
+  min-width:250px;
+  float:right;
+  max-width:25%;
+  padding:3px;
+  margin:5px;
+
+}
+#cert {float:left;}
+@media screen and (max-width: 768px) {
+  #list1, #list2 {
+    margin: 0px;
+  }
+      #list1 li, #list2 li {
+        float:left;
+        text-align: center;
+      }
+      #spec ul {
+        
+         margin: 0px;
+         list-style-type: none;
+         
+         padding:0px;
+         margin:0px;
+
+
+      }
+      #spec ul li {
+      list-style-type: none;
+      width: 100%;
+      padding:5px; margin:5px;
+      background-color:black;
+      font-size: 18px;
+      color: #AC0202;
+
+      
+      }
+      #spec ul li a {
+      border:1px solid black;
+
+      font-size: 18px;
+      width: 100%;
+      }
+        
+        #number {
+          padding-top:5px;
+          text-align: center;
+        }
+        .flex-caption {
+            position:relative;
+            left:0px;bottom: 0px;
+            background:rgba(0, 0, 0,0.9);
+            z-index:1;
+            overflow: hidden;
+            color:white;
+            font-size: 16px;}
+        .flex-head {
+          font-size: 18px;
+          font-family: "Raleway";
+          color: red;
+}
+      #logo img {
+        margin: 0 auto;
+        display: block;
+          margin-left: auto;
+          margin-right: auto;
+      }
+      #request{
+        float:right;
+      }
+      nav {
+        height:auto;
+      }
+      footer ul {
+        margin: 0 auto;
+        float:none;
+        width:300px;
+      }
+      #creditcards {
+        width:300px;
+        padding-top:20px;
+      }
+      #cert {
+       margin:0 auto;
+       float: none;
+      }
+
+    }
+    .popup_background {
+    z-index: 2000; /* any number */
+  }
+  .popup_wrapper {
+    z-index: 2001; /* any number + 1 */
+  }
+  /* Add inline-block support for IE7 */
+  .popup_align,
+  .popup_content {
+    *display: inline;
+    *zoom: 1;
+  }
+
+  .white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+.white-popup h1{
+  color:#ac0202;font-size:26px;padding:20px;
+}
+
+.white-popup h2{
+  color:#ac0202;font-size:18px; padding:10px;padding-left:0px;
+}
+.white-popup ul {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+.white-popup ul li {
+    list-style-type:circle;
+    padding-bottom:5px;
+    text-align: left;
+}
+.white-popup p {
+  padding: 10px;
+}
+.service{
+   background-image: url("../img/box-bg.png");
+    border: solid 1px #e0e0e0;
+    background-size: auto 100%;
+    padding:5px;
+  
+}
+#list1 {
+  float:left;margin-right:25px;
+}
+#list1 li, #list2 li {
+  list-style-type:square;
+}
+.profile {
+ padding: 10px;
+ text-align: center;
+}
+.profile  p{
+  padding:5px;
+   text-align: center;
+  }
+
+  #lobby li {
+    float:left;
+    list-style: none;
+    margin-right:10px;
+  }
+  /* Flexible iFrame */
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    max-height: 300px;
+}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.coupon {
+   width: 250px;
+   padding: 10px;
+   text-align: center;
+   border: 3px dashed #ccc; 
+   background-color:white;
+ }
+ .coupon p {
+  padding: 5px;
+ }
+#request a {
+color:white;
+}
